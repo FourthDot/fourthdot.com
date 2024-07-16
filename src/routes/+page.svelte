@@ -1,7 +1,7 @@
 <script>
 
 	import logo from "$lib/assets/logo-compact.svg"
-	import Centered from "$lib/components/Centered.svelte"
+	import Centered from "$lib/components/centered.svelte"
 
 </script>
 
