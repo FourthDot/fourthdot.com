@@ -98,6 +98,8 @@
 	h1 {
 		font-weight: 400;
 		font-size: 1.25em;
+		position: relative;
+		left: -3em;
 	}
 	.terms-container {
 		position: relative;
