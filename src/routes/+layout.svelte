@@ -1,0 +1,36 @@
+<slot/>
+
+<style>
+	:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+    }
+    @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+    }
+
+    html, body {
+    	height: 100%;
+	}
+	body {
+    	margin: 0;
+	}
+
+    div {
+        font-family: Inter;
+    }
+
+    .page-wrapper {
+        height: calc(100% - 6em);
+        display: flex;
+        flex-direction: column;
+        margin: 3em;
+        flex-grow: 1;
+    }
+
+    @media (max-width: 768px) {
+        .page-wrapper {
+            margin: 1.25em;
+        }
+    }
+</style>
