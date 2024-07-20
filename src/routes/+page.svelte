@@ -78,7 +78,7 @@
 	  <circle in:expand={{ duration: 1000, delay: 2500, easing: quintOut }} class="cls-1" cx="83.07" cy="56.9" r="4.98"/>
 
 	</svg>
-	<h1 in:fade={{ delay: 4500, duration: 1000 }}>Fourth Dot focuses on creating the tools for tomorrows 
+	<h1 in:fade={{ delay: 4500, duration: 1000 }}>Fourth Dot focuses on creating the tools for tomorrow's 
 		<span class='terms-container'>
 			{#each terms as term, i}
 				{#if wordIndex == i}
