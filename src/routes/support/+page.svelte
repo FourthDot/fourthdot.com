@@ -1,9 +1,11 @@
 <script>
-	import Centered from "$lib/components/centered.svelte";
+	import DefaultHeader from "$lib/components/headers/defaultHeader.svelte";
+	import Section from "$lib/components/layout/section.svelte";
 </script>
 
-<Centered>
-	<h1>Support</h1>
+<DefaultHeader title="Support"/>
+
+<Section>
 	<p>Whether you need help with a technical issue, have questions about our services, or require guidance on using our offerings, we are here to help. Browse the guides below to get started. If you still have questions, please contact us using the button below.</p>
 
 	<div class="links-container">
@@ -14,7 +16,7 @@
 
 	</div>
 
-</Centered>
+</Section>
 
 <style>
 
@@ -30,7 +32,7 @@ h2 {
 }
 
 p {
-	max-width: 600px;
+	
 	font-weight: 300;
 }
 
