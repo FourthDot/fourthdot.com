@@ -60,6 +60,7 @@
         font: inherit;
         cursor: pointer;
         outline: inherit;
+        text-decoration: none;
     }
 
     .buttonContainer {

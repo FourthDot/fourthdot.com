@@ -10,9 +10,9 @@
 
 	<div class="links-container">
 
-		<a href="support/postcards">Getting Started with Postcards &rarr;</a>
+		<a href="support/product-guides/postcards">Getting Started with Postcards &rarr;</a>
 
-		<a href="mailto:support@fourthdot.com">Contact Us &rarr;</a>
+		<a href="support/contact">Contact Us &rarr;</a>
 
 	</div>
 

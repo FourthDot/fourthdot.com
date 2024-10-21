@@ -11,7 +11,7 @@
 
 	<div class="links-container">
 
-		<a href="mailto:legal@fourthdot.com?Subject=Privacy Inquiry">Questions? Contact Us &rarr;</a>
+		<a href="/support/contact">Questions? Contact Us &rarr;</a>
 
 	</div>
 

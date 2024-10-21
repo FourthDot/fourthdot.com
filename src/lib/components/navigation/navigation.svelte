@@ -76,7 +76,7 @@
 
     </div>
 
-    <div>
+    <div class="search">
 
         <a>Search</a>
 
@@ -90,21 +90,19 @@
 
         <NavContent bind:content={content} desiredContent="Apps" bind:height={height}>
 
-            <NavDetailList title="Interleaf" tagline="A new way to note" beta={true}>
-            <a>Explore Features</a>
-            <a>Try for Free</a>
-            <a>Product Guide</a>
-            <a>FAQs</a>
-            </NavDetailList>
-
             <NavDetailList title="Postcards" tagline="Share moments monthly" beta={true}>
-                <a>Explore Features</a>
-                <a>Download for Free</a>
-                <a>Product Guide</a>
-                <a>FAQs</a>
+                <a href="/apps/postcards/explore">Explore Features</a>
+                <a href="/apps/postcards/join-beta">Join the Beta</a>
+                <!-- <a>Product Guide</a> -->
+                <a href="/apps/postcards/frequently-asked-questions">FAQs</a>
             </NavDetailList>
 
-            <NavDetailList title="Lectern" tagline="Slideshows for art history" comingSoon={true}>
+            <NavDetailList title="Interleaf" tagline="A new way to note" beta={true}>
+            <a href="/apps/interleaf/explore">Explore Features</a>
+                <a href="/apps/interleaf/join-beta">Join the Beta</a>
+            </NavDetailList>
+
+            <!-- <NavDetailList title="Lectern" tagline="Slideshows for art history" comingSoon={true}>
                 <a>Explore Features</a>
                 <a>Join the Beta</a>
                 <a>FAQs</a>
@@ -113,19 +111,20 @@
             <NavDetailList title="Sandbox" tagline="AR made easy" comingSoon={true}>
                 <a>Explore Features</a>
                 <a>Join the Beta</a>
-            </NavDetailList>
+            </NavDetailList> -->
         
         </NavContent>
 
         <NavContent bind:content={content} desiredContent="Support" bind:height={height}>
-            <a>Product Guides</a>
-            <a>View FAQs</a>
-            <a href="/support">Contact Us</a>
+            <a href="/support/product-guides">Product Guides</a>
+            <a href="/support/documentation">Documentation</a>
+            <a href="/support/contact">Contact Us</a>
         </NavContent>
     
         <NavContent bind:content={content} desiredContent="Company" bind:height={height}>
-            <a>About</a>
-            <a>Newsroom</a>
+            <a>Core Values</a>
+            <a>Team</a>
+            <a>News & Updates</a>
         </NavContent>
 
     </div>
@@ -137,6 +136,10 @@
 <style>
 
     .mainLogo {
+        width: 55px;
+    }
+
+    .search {
         width: 55px;
     }
 
@@ -167,7 +170,7 @@
     .expandingContainer {
         overflow: hidden;
         transition: height 0.5s ease;
-        height: var(--expandingHeight);
+/*        height: var(--expandingHeight);*/
         z-index: 10;
         width: calc(100% - 4em);
         padding: 8em 2em 4em 2em;

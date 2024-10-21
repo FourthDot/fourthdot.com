@@ -39,10 +39,10 @@
     </div>
 
     <div class="footerLinks">
-        <a class="footerCompactText">Acknowledgements</a>
+        <a class="footerCompactText" href="/acknowledgements">Acknowledgements</a>
         <a class="footerCompactText" href="/legal/privacy">Privacy</a>
         <a class="footerCompactText" href="/legal/terms-and-conditions">Terms & Conditions</a>
-        <a class="footerCompactText">Cookies Policy</a>
+        <a class="footerCompactText" href="/legal/cookies-policy">Cookies Policy</a>
 
     </div>
 
