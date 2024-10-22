@@ -1,0 +1,83 @@
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.footnotes {
+    margin-top: 2em;
+    padding-top: 1em;
+}
+
+.footnotes hr {
+    display: none;
+
+}
+
+.footnotes li {
+    color: grey;
+
+}
+
+.footnotes ol li::marker {
+    color: gainsboro;
+}
+
+.footnote-ref {
+    color: gainsboro;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+.footnote-ref:hover {
+    color: black;
+}
+
+.footnotes li a {
+    color: grey;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+.footnote-backref {
+    color: gainsboro !important;
+    text-decoration: none;
+    margin-left: 0.5em;
+    transition: color 0.25s;
+}
+
+.footnote-backref:hover {
+    color: black !important;
+}
+
+.footnotes li a:hover {
+    color: black;
+}
+
+.footnotes ol {
+    list-style-type: decimal;
+    margin-block-start: 0px;
+    padding-inline-start: 1.5em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+}
+
+pre {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    padding: 1em;
+    font-size: 1em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}

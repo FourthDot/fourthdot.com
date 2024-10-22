@@ -58,6 +58,7 @@ a:active {
 
 img {
 	width: 50%;
+	max-height: 80vh;
 }
 
 .beta {

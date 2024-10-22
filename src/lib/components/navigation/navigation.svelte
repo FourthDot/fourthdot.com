@@ -69,7 +69,7 @@
 
         <ButtonMenu title="Support" href="/support" bind:content={content}/>
 
-        <ButtonMenu title="Company" href="/" bind:content={content}/>
+        <ButtonMenu title="Company" href="/company" bind:content={content}/>
 
         <!-- <button on:click={() => height = 100}>Height = 100</button>
         <button on:click={() => height = 200}>Height = 200</button> -->
@@ -122,9 +122,9 @@
         </NavContent>
     
         <NavContent bind:content={content} desiredContent="Company" bind:height={height}>
-            <a>Core Values</a>
-            <a>Team</a>
-            <a>News & Updates</a>
+            <a href="/company">Core Values</a>
+            <a href="/company">Team</a>
+            <a href="/news">News & Updates</a>
         </NavContent>
 
     </div>
