@@ -4,7 +4,7 @@
 </script>
 
 <a href={post.path}>
-    <p class="post-number">{formattedNumber(post.number)}</p>
+    <!-- <p class="post-number">{formattedNumber(post.number)}</p> -->
     <div class="post-container">
         <div class="post-meta-row">
             <h2>{post.meta.title}</h2>
@@ -66,9 +66,5 @@
 
     a h2 {
         margin: 0em;
-    }
-
-    .post-description {
-        color: grey;
     }
 </style>

@@ -66,7 +66,7 @@
 		<span class="quoteAttribution">—Steve Jobs</span>
 		<br><br>
 		
-		Fourth Dot's name is a subtle reference to this famous quote from Jobs's 2005 Stanford's commencement. Fourth Dot is in many ways about embracing the unknown, and trusting that the dots will connect. Here's to creating something wonderful.
+		Fourth Dot's name is a subtle reference to this famous quote from <a href="https://youtu.be/UF8uR6Z6KLc?si=XUgvskteR6r7UID_" target="blank">Jobs's 2005 Stanford commencement.</a> Fourth Dot is in many ways about embracing the unknown, and trusting that the dots will connect. Here's to creating something wonderful.
 	</p>
 
 

@@ -67,7 +67,4 @@
         margin: 0em;
     }
 
-    .post-description {
-        color: grey;
-    }
 </style>
