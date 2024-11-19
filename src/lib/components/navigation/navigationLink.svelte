@@ -1,16 +1,17 @@
 <script>
 import { fade, slide } from 'svelte/transition';
-export let title;
-export let tagline;
+export let href;
+export let title = "";
+export let tagline = "";
 export let beta = false;
 export let comingSoon = false;
 
 </script>
 
-<div class="navDetailContainer" in:fade|global={{ delay: 250, duration: 250}}>
+<div class="navLinkContainer">
 	
-	<div>
-		<a>{title}
+	<div class="navLink">
+		<a href={href}>{title}
 
 			{#if beta}
 
@@ -39,19 +40,28 @@ export let comingSoon = false;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		font-size: 1.75em;
+		font-size: 1.25em;
+		font-weight: 425;
+		text-decoration: none;
+		color: black;
+		margin: 0;
 	}
 
 	p {
 		margin-top: 0.25em;
 		color: grey;
 		font-size: 0.8em;
+		margin-bottom: 0;
 	}
 
-	.navDetailContainer {
+	.navLinkContainer {
 		display: flex;
 		flex-direction: column;
-		grid-gap: 1em;
+	}
+
+	.navLink {
+		display: flex;
+		flex-direction: column;
 	}
 
 	.beta {
