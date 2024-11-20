@@ -1,10 +1,12 @@
 <script>
-	import Centered from "$lib/components/centered.svelte";
+	import DefaultHeader from "$lib/components/headers/defaultHeader.svelte";
+	import Section from "$lib/components/layout/section.svelte";
 </script>
 
-<div class="container">
+<DefaultHeader title="Getting Started with Postcards"/>
 
-	<h1>Getting Started with Postcards</h1>
+<Section>
+
 	<p>
 		<strong>Creating an Account</strong>
 		<br>
@@ -35,25 +37,9 @@
 		To manage your account plase navigate to the profile tab by selecting it from the tab bar at the bottom of the app's interface. From there you can manage your account by selecting the ellipsis (three dots). From the menu you can select "Update Username" to envoke a dialogue to change your username, select "Update Profile Picture" to change the photo other users will see when viewing your account, or select "Sign Out" to sign out of your account on the app.
 	</p>
 
-</div>
+</Section>
 
 <style>
-
-h1 {
-	font-weight: 400;
-	font-size: 1.5em;
-}
-
-h2 {
-	font-weight: 400;
-	font-size: 1.25em;
-	margin-bottom: 0px;
-}
-
-p {
-	max-width: 600px;
-	font-weight: 300;
-}
 
 a {
 	cursor: pointer;
@@ -65,26 +51,10 @@ a:hover {
 }
 
 strong {
-	font-weight: 500;
-	font-size: 1.1em;
-	line-height: 1.75em;
+	font-weight: 450;
+	font-size: 1.2em;
+	line-height: 2.25em;
 }
 
-.container {
-	padding: 0;
-	margin: 0;
-	margin-top: 10em;
-	padding-bottom: 10em;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
 
-.links-container {
-	display: flex;
-	flex-direction: column;
-	grid-gap: 1em;
-	align-items: center;
-}
 </style>
