@@ -85,4 +85,18 @@ export let comingSoon = false;
 		text-transform: uppercase;
 	}
 
+	@media only screen and (max-height: 800px) {
+		a {
+			font-size: 1em;
+		}
+
+		p {
+			font-size: 0.65em;
+		}
+		.beta, .comingSoon {
+			margin-left: 1em;
+			padding: 0.3em;
+		}
+	}
+
 </style>
