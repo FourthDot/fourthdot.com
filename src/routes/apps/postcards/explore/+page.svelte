@@ -59,6 +59,7 @@ a:active {
 img {
 	width: 50%;
 	max-height: 80vh;
+	object-fit: scale-down;
 }
 
 .beta {
@@ -71,4 +72,13 @@ img {
 	text-transform: uppercase;
 }
 
+@media only screen and (max-width: 700px) {
+	.productHero {
+		flex-direction: column-reverse;
+	}
+	img {
+		width: 100%;
+		max-height: 400px;
+	}
+}
 </style>
