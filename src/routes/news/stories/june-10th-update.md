@@ -12,17 +12,17 @@ As part of the MiddChallenge Grant we will be providing weekly updates throughou
 
 Fourth Dot's brand is focused on simple and easy to understand graphics, punchy images, and clear typography. One element of the brand previously remained unresolved, until this week. The "Inter" typeface was selected to replace our existing typeface across all documents and our website. This new face offers increased legability across a variation of weights. Furthermore the typeface closely aligns with the system font on macOS, iOS, and iPadOS which will increase continuity between our products user interface and our brand.
 
-![Inter Typeface](/src/routes/news/stories/resources/june-10th-update/typeface.png)
+![Inter Typeface](./resources/june-10th-update/typeface.png)
 
 ## Website Redesign
 
 The original website for Fourth Dot featured a large grey navigation bar with quite a few links. This increased the complexity of navigating the website and ultimately added unnecessary complexity to the design. With this in mind the website's main navigation was revised to feature the word mark, three links, and a search field. This simpfies navigation and places great emphasis on our products.
 
-![Website Mockup](/src/routes/news/stories/resources/june-10th-update/webMockup.png)
+![Website Mockup](./resources/june-10th-update/webMockup.png)
 
 The footer of the website was also updated. Items were rearranged and categories were condensed to create a simpler layout. Three variations of the footer were also created: one in white, one in light grey, and one in slate. These additional color variations aid in the deferentiation of the footer from other page content.
 
-![Website Footers](/src/routes/news/stories/resources/june-10th-update/footers.png)
+![Website Footers](./resources/june-10th-update/footers.png)
 
 ## Research
 
