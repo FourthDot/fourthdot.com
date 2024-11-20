@@ -120,6 +120,11 @@ button {
 
 }
 
+@media only screen and (max-width: 700px) {
+    input, textarea, label, #buttonContainer {
+        width: calc(100% - 0.75em);
+    }
+}
 
 
 </style>
