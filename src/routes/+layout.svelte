@@ -112,5 +112,19 @@
     .footerLinks a:hover {
         color: gray;
     }
+
+    @media only screen and (max-width: 800px) {
+        footer {
+            flex-direction: column-reverse;
+            grid-gap: 1em;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .footerLinks {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
     
 </style>
