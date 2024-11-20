@@ -45,6 +45,7 @@ export let comingSoon = false;
 		text-decoration: none;
 		color: black;
 		margin: 0;
+		min-width: 200px;
 	}
 
 	p {

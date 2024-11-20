@@ -5,6 +5,7 @@
     import { expand } from "$lib/animations/expand.ts"
     import { onMount } from 'svelte';
     import { tweened } from 'svelte/motion';
+    import { navigating } from '$app/stores';
 
     import ButtonMenu from "$lib/components/navigation/buttonMenu.svelte"
     import NavLink from "$lib/components/navigation/navigationLink.svelte"
@@ -12,6 +13,8 @@
 
     let searchQuery = '';
     let showingMenu = false;
+
+    $: if($navigating) closeMenu();
 
     const menuPosition = tweened(2, {
         duration: 400,
@@ -27,6 +30,12 @@
             menuPosition.set(2);
         }
         
+    }
+
+    function closeMenu () {
+        if (showingMenu) {
+            toggleMenu();
+        }
     }
 
 </script>
@@ -193,7 +202,6 @@
         overflow: hidden;
         z-index: 10;
         position: fixed;
-/*        min-width: 200px;*/
         top: 0px;
         bottom: 0px;
         right: 0;
