@@ -186,5 +186,23 @@
 		font-weight: 300;
 	}
 
+	 @media only screen and (max-width: 700px) {
+		header {
+			flex-direction: column;
+			grid-gap: 1em;
+	 	}
+
+	 	header p {
+			width: 100%
+		}
+		.hero {
+			width: 100%
+		}
+		img {
+			width: 100%;
+			max-width: 300px;
+		}
+	 }
+
 
 </style>

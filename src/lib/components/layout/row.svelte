@@ -21,4 +21,11 @@ export let alignment = "flex-start";
     align-content: space-between;
  }
 
+ @media only screen and (max-width: 700px) {
+	div {
+		flex-direction: column;
+		grid-gap: 1em;
+ 	}
+ }
+
 </style>

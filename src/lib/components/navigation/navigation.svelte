@@ -215,7 +215,6 @@
     }
 
     a, button {
-        z-index: 11;
         text-decoration: none;
         cursor: pointer;
         color: #000;
@@ -234,11 +233,25 @@
         
     }
 
+    .compactMenuButton {
+        z-index: 11;
+    }
+
     .search-bar-container input {
         font-size: 1em;
         padding: 1em;
         border: solid 1px #D9D9D9;
         border-radius: 10px;
+    }
+
+    @media only screen and (max-height: 800px) {
+        .expandingContainer {
+            grid-gap: 0px;
+        }
+
+        .search-bar-container {
+            margin-bottom: 0.5em;
+        }
     }
 
 </style>

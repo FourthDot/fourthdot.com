@@ -145,4 +145,21 @@ button {
     min-width: auto;
 }
 
+@media only screen and (max-width: 700px) {
+    form {
+        align-items: flex-start;
+    }
+    input, textarea, label, #buttonContainer {
+        width: calc(100% - 0.75em);
+    }
+    .radio {
+        margin-left: 20px;
+        width: 20px;
+    }
+
+    .radioRow label {
+        padding-inline: 0.25em;
+    }
+}
+
 </style>
