@@ -10,6 +10,7 @@
     import ButtonMenu from "$lib/components/navigation/buttonMenu.svelte"
     import NavLink from "$lib/components/navigation/navigationLink.svelte"
     import NavSection from "$lib/components/navigation/navigationSection.svelte"
+    import NavSearchResults from "$lib/components/navigation/navigationSearchResults.svelte"
 
     let searchQuery = '';
     let showingMenu = false;
@@ -33,6 +34,7 @@
     }
 
     function closeMenu () {
+        searchQuery = '';
         if (showingMenu) {
             toggleMenu();
         }
@@ -152,7 +154,7 @@
 
         {:else}
 
-        <p>Search results will show up here</p>
+        <NavSearchResults query={searchQuery}/>
 
         {/if}
 
