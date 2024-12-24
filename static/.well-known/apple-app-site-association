@@ -2,7 +2,7 @@
   "applinks": {
       "details": [
            {
-             "appIDs": [ "ABCDE12345.com.example.app"],
+             "appIDs": [ "ST2D7B3F7S.com.FourthDot.Postcards"],
              "components": [
                {
                   "/": "apps/postcards/group-invitation/*",
