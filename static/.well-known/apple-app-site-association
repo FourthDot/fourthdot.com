@@ -1,0 +1,15 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "ABCDE12345.com.example.app"],
+             "components": [
+               {
+                  "/": "apps/postcards/group-invitation/*",
+                  "comment": "Matches any URL with a path that starts with /postcards/invitation/."
+               }
+             ]
+           }
+       ]
+   }
+}
