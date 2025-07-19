@@ -14,11 +14,11 @@
 
 </script>
 
-{#if visible}
+<!-- {#if visible}
 
 <Navigation/>
 
-{/if}
+{/if} -->
 
 <main>
     <slot/>
@@ -26,7 +26,7 @@
 
 
 
-{#if visible}
+<!-- {#if visible}
 
 <hr>
 
@@ -48,7 +48,7 @@
 
 </footer>
 
-{/if}
+{/if} -->
 
 <style>
 	:root {

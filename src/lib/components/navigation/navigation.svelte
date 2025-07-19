@@ -76,7 +76,7 @@
           <line in:draw={{ duration: 600 }} class="cls-2" x1="42.08" y1="16.72" x2="42.08" y2="83.28"/>
           <line in:draw={{ duration: 500, delay: 1600 }} class="cls-3" x1="66.6" y1="56.9" x2="57.41" y2="48.58"/>
           <line in:draw={{ duration: 500, delay: 1600 }} class="cls-3" x1="66.6" y1="56.9" x2="57.41" y2="66.53"/>
-          <circle in:expand={{ duration: 1000, delay: 2500, easing: quintOut }} class="cls-1" cx="83.07" cy="56.9" r="4.98"/>
+          <!-- <circle in:expand={{ duration: 1000, delay: 0, easing: quintOut }} class="cls-1" cx="83.07" cy="56.9" r="4.98"/> -->
 
         </svg>
     </a>
