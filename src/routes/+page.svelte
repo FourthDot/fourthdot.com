@@ -69,6 +69,7 @@
     	margin-top: 0.5em;
     	max-width: 445px;
     	font-weight: 400;
+    	margin-inline: 1em;
     }
 
 </style>
