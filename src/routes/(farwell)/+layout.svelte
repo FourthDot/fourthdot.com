@@ -5,8 +5,6 @@
     import { expand } from "$lib/animations/expand.ts"
     import { onMount } from 'svelte';
 
-    import Navigation from "$lib/components/navigation/navigation.svelte"
-
     import '$lib/styles/main.css';
 
     let visible = false;
@@ -14,41 +12,9 @@
 
 </script>
 
-<!-- {#if visible}
-
-<Navigation/>
-
-{/if} -->
-
 <main>
     <slot/>
 </main>
-
-
-
-<!-- {#if visible}
-
-<hr>
-
-<footer in:fade={{delay: 0}}>
-
-    <div>
-
-        <p>Made in New England.</p>
-        <p class="footerCompactText">Copyright 2024 Fourth Dot LLC. All rights reserved.</p>
-    </div>
-
-    <div class="footerLinks">
-        <a class="footerCompactText" href="/legal/acknowledgements">Acknowledgements</a>
-        <a class="footerCompactText" href="/legal/privacy">Privacy</a>
-        <a class="footerCompactText" href="/legal/terms-and-conditions">Terms & Conditions</a>
-        <a class="footerCompactText" href="/legal/cookies-policy">Cookies Policy</a>
-
-    </div>
-
-</footer>
-
-{/if} -->
 
 <style>
 	:root {

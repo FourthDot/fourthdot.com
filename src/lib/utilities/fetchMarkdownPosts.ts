@@ -1,11 +1,11 @@
 export const fetchNewsStories = async () => {
-	const allPostFiles = import.meta.glob('/src/routes/news/stories/*.md');
+	const allPostFiles = import.meta.glob('/src/routes/*/archive/news/stories/*.md');
 	const iterablePostFiles = Object.entries(allPostFiles);
-
+	// console.log(iterablePostFiles);
 	const allPosts = await Promise.all(
 		iterablePostFiles.map(async ([path, resolver]) => {
 			const { metadata }: any = await resolver();
-			const postPath = path.replace('/src/routes/news/stories/', '/news/').replace('.md', '');
+			const postPath = path.replace('/src/routes/(archive)/archive/news/stories/', '/archive/news/').replace('.md', '');
 
 			return {
 				meta: metadata,
@@ -17,17 +17,18 @@ export const fetchNewsStories = async () => {
 
     // remove unpublished posts
     const publishedPosts = allPosts.filter(post => post.meta.published == 'true');
+    console.log(publishedPosts);
 	return publishedPosts;
 };
 
 export const fetchSupportDocumentation = async () => {
-	const allPostFiles = import.meta.glob('/src/routes/support/documentation/articles/*/*.md');
+	const allPostFiles = import.meta.glob('/src/routes/*/archive/support/documentation/articles/*/*.md');
 	const iterablePostFiles = Object.entries(allPostFiles);
-
+	console.log(iterablePostFiles);
 	const allPosts = await Promise.all(
 		iterablePostFiles.map(async ([path, resolver]) => {
 			const { metadata }: any = await resolver();
-			const postPath = path.replace('/src/routes/support/documentation/articles/', '/support/documentation/').replace('.md', '');
+			const postPath = path.replace('/src/routes/(archive)/archive/support/documentation/articles/', '/archive/support/documentation/').replace('.md', '');
 			return {
 				meta: metadata,
 				path: postPath,

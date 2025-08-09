@@ -6,7 +6,7 @@
     import { onMount } from 'svelte';
 	let visible = false;
     onMount(() => visible = true);
-
+    import '$lib/styles/main.css';
 </script>
 <Centered>
 	
@@ -47,9 +47,11 @@
 	</svg>
 	{/if}
 
-	<h1>Farewell from Fourth Dot</h1>
+	<h1>404 Page Not Found</h1>
 
-	<p>After several years of working on projects under the Fourth Dot banner, <a href="https://www.cfridlington.com">Christopher</a> has decided to wind down these efforts to dedicate his full focus and energy to his new role at <a href="https://www.apple.com">Apple</a>. Thank you for your interest and support.</p>
+	<p>This website has been archived following the conclusion of projects at Fourth Dot. If you are looking for a page you can view it by looking at the archive site.</p>
+
+	<p><a href="/archive">View Archived Site -></a><p>
 
 </Centered>
 
@@ -71,5 +73,7 @@
     	font-weight: 400;
     	margin-inline: 1em;
     }
+
+    p 
 
 </style>
