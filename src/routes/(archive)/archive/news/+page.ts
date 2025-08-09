@@ -1,5 +1,6 @@
 export const load = async ({ fetch }) => {
-	const response = await fetch(`/api/support/documentation`);
+	console.log("Loading Stories")
+	const response = await fetch(`/archive/api/news/stories`);
 	const posts = await response.json();
 
 	return {
