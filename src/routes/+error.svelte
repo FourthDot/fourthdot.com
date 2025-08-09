@@ -74,6 +74,4 @@
     	margin-inline: 1em;
     }
 
-    p 
-
 </style>
